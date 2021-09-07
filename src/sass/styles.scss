@@ -1,0 +1,57 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.country-input {
+  margin: 50px;
+
+  font-size: 40px;
+}
+ul {
+  list-style: none;
+}
+.country-card {
+  list-style: disc;
+  margin-bottom: -30px;
+}
+.country-name {
+  text-align: center;
+  font-weight: 500;
+  font-size: 40px;
+}
+.country-card__item {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.search-countries {
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  background-color: mistyrose;
+}
+.languages {
+  margin-top: 20px;
+  list-style: disc;
+}
+.country-list {
+  list-style: disc;
+  font-size: 20px;
+}
+.search-countries {
+  padding: 20px;
+}
+.country-container {
+  display: flex;
+}
+.column-left {
+  margin-right: 30px;
+}
